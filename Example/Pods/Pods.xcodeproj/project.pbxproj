@@ -7,350 +7,405 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		342FD0CF5A19992200CDCD679F2D71C6 /* EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E39B0685549CF2D162E351710F817C7 /* EAIntroView-dummy.m */; };
-		35843D6B720611CD4E0BB4372C6E521A /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6CC02EF85953C2726E73AA3634DD48 /* EAIntroPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49A40958B574F4AA0622B86E3DAA19F5 /* EARestrictedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15AC623A9DDD2B959378E7A335C59F38 /* EARestrictedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EA4A852D1D8C36A63ED5E157029EC06 /* EAIntroView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F426B35562899C73D38F2E445EE9FE /* EAIntroView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		501396162015F7B2D3D6629BFB27F7C9 /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = 230BEDC7FF458C314B581C4F001CD8AF /* EAIntroView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5265B119E5E1633AEB31F03A1751634F /* Pods-EAIntroView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9203AEE847FC6F09D76BE8FFCB424C2 /* Pods-EAIntroView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		599EC797D93F4BEB8EC9C246DBC36125 /* EARestrictedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A39C0EF9D01DEA5FEA591192B86A274 /* EARestrictedScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A259745CAF4CDB0040B44B85D9414B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E56F42BB48D77D056DA933BC0C3F555 /* Foundation.framework */; };
-		5DB99A73EEE5C0AE02955B3906043BF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E56F42BB48D77D056DA933BC0C3F555 /* Foundation.framework */; };
-		6194D195FCD9253BBD2C640AD48A6532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E56F42BB48D77D056DA933BC0C3F555 /* Foundation.framework */; };
-		9E4C27684888A5ADE0E02EFC245E9003 /* SMPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 539BA950445062ED1C73617EEEB74AB5 /* SMPageControl-dummy.m */; };
-		A5FFBB20664D7CB5B2337E8975CF251E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E56F42BB48D77D056DA933BC0C3F555 /* Foundation.framework */; };
-		B7B2AE504A4CFBE163A40DBB5E488227 /* SMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CA7CA4507F31CE05EE92AF7C25F1CB /* SMPageControl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BA196FBDF9F3A5BFC4655F2F383830C5 /* SMPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A393A24E60EC382CA2E70BC68C7927 /* SMPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C41EB9232CC9C9A7A1D5A6F221D1EDB4 /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 164EB3EEEA88363B064BC6ADE85ECC28 /* EAIntroPage.m */; };
-		CCD230BC815C775651F2054A0DAE32E7 /* EARestrictedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F4ABF3017E47B6C8FBE4B75AE6898B /* EARestrictedScrollView-dummy.m */; };
-		D7C94151781DC90EACF900245D485336 /* Pods-EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB642F9F9DDDDF578C542D13EB39FBA /* Pods-EAIntroView-dummy.m */; };
-		E09DB642B871EE0832DBDA971D628FEA /* SMPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EA70D6786CBFA8889FDDCAD8E3F80989 /* SMPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA705D6826863CE9297E92D5673EEDCE /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4744BD187D6D8C967FC3EDBE106083E8 /* EAIntroView.m */; };
-		EABBB2F663609893680E5B6F1622F5E6 /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 277F6335E874C51224A511D84CB345CB /* EARestrictedScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F3B8870A51612FE16508BA9448362CB9 /* EARestrictedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F131CC468F5D32B261BC052AEE9EF1 /* EARestrictedScrollView.framework */; };
+		1AF6E06C15A740AD770A58F442B3A417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC5072847096D9D900FD95D8CA4A91 /* Foundation.framework */; };
+		247F5206EDFAB43C9FC3CCC3592D1A87 /* Pods-EAIntroView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B6665CD1D7AE3C2067F8692ECB6B4F /* Pods-EAIntroView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38520FA46DEFE249A70D1CBF0AB69AB0 /* SMPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCE7E1A97E631B3FC9D914BADE27CA /* SMPageControl-dummy.m */; };
+		447663029F2117B75653BFF8BDF36081 /* EARestrictedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6215145B0747B01FDA4C7AF1904D6D5 /* EARestrictedScrollView-dummy.m */; };
+		5FE4A3A618B40FC80D1FCAEE7C878C15 /* SMPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8722FDEBD6339F085886DC288C4B64 /* SMPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62BB7DEC4EB5E2D99AF0EB92E3EBDCC8 /* SMPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78515203BDC961C8BE19C499A9313644 /* SMPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E049BB00900848758E8EA672CCC681 /* EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF16F738D286F7E1885FE0FE5FD66F3 /* EAIntroView-dummy.m */; };
+		7996E3C2A6E49F63DCD4336A77492F13 /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D1580F5F94126ECA24B9ED29057B62 /* EAIntroPage.m */; };
+		8280447ED6E742004CA309A12A0EAF64 /* EAIntroView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AADC2B58730D8C8F11C52B627217163 /* EAIntroView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90EADA08C24A36FD75FA04BC34C0256E /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB19F26AF26C46CC6CDC1660B8F837C /* EAIntroPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83CA938A4C8013E9835F1B6D1DF2BF1 /* EARestrictedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571ADF3417AC9C208BD6533F46AE9200 /* EARestrictedScrollView.framework */; };
+		B59AAD60E5669B77EA96A7DE63B04E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC5072847096D9D900FD95D8CA4A91 /* Foundation.framework */; };
+		B663D477ABE56225DCAAD4B8E3AC2C6E /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C90A60F95D3FA9D3FD5C07C5740A6A /* EAIntroView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF513D80AB8525D6C70DB445C8A14268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC5072847096D9D900FD95D8CA4A91 /* Foundation.framework */; };
+		D4BC12C8B19AFC83FC5B74A2DF272C42 /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 294BD3A08DAD4DC5CEEC0973048CE703 /* EAIntroView.m */; };
+		D89E2F7F711BEB9EA32D6DCDB7EC2B38 /* Pods-EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99350DA7CDC3E6F2B252E4F4F8A03368 /* Pods-EAIntroView-dummy.m */; };
+		DC1B6E2E1FD8CEE6547C0B90A116B7D8 /* EARestrictedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B935D5650450F7215039C211F332FC96 /* EARestrictedScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E710953B032329627D9DCBEC8749E1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC5072847096D9D900FD95D8CA4A91 /* Foundation.framework */; };
+		F0955AE1BA4EA93C868E26069D0ED6FB /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C91706F7A178BD8A859D053338008E /* EARestrictedScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F293885FC744DA72763CA71F71B9653F /* EARestrictedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D88FF57F0E9F1CF9EF768A57F9801D77 /* EARestrictedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4059D3CF653A004F9964A945414547 /* SMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CE2D400D14ECC51523F38D988E12FD /* SMPageControl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2723242F1441EEFC0C1ED85953B2C48E /* PBXContainerItemProxy */ = {
+		5CD2BA08BE8BF0DA97B326C1AD9C5D21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A7C52FF4A2E47479452531A91B559670;
-			remoteInfo = SMPageControl;
-		};
-		381890CD6DACFBFB7DC2BC461F9B7954 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 822DA31A6A34C7EF41E1EC7A5EF8FC2F;
+			remoteGlobalIDString = 0D772E704D0B9C773AADE04792547E65;
 			remoteInfo = EAIntroView;
 		};
-		3BD0AABA668B69C63611634E350F4621 /* PBXContainerItemProxy */ = {
+		DC5D86616A8B91977DE1785EF2655948 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 58AAD2C9E898747F2F4ABF348E6325F2;
+			remoteGlobalIDString = AA3208195600261A475C3473888B2F3C;
 			remoteInfo = EARestrictedScrollView;
 		};
-		D1D3FEAF68B3004BF0F129FB76E1BF5C /* PBXContainerItemProxy */ = {
+		ED337CD28D6672D39AC6B4D709802D67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 58AAD2C9E898747F2F4ABF348E6325F2;
+			remoteGlobalIDString = AA3208195600261A475C3473888B2F3C;
 			remoteInfo = EARestrictedScrollView;
+		};
+		F07ECE6A72DB49208B931F87892BF4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7985E2C4E8DC8625136534CDA3F5DF;
+			remoteInfo = SMPageControl;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05190E65756AF3E3804C251087D3FC51 /* SMPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SMPageControl.modulemap; sourceTree = "<group>"; };
-		0E1F91E1A70314953D7D34548A651758 /* Pods-EAIntroView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAIntroView-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F64C70995E1E66F94C0483ADC34A0A3 /* Pods-EAIntroView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAIntroView-resources.sh"; sourceTree = "<group>"; };
-		14CA7CA4507F31CE05EE92AF7C25F1CB /* SMPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMPageControl.m; sourceTree = "<group>"; };
-		15AC623A9DDD2B959378E7A335C59F38 /* EARestrictedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EARestrictedScrollView.h; path = EARestrictedScrollView/EARestrictedScrollView.h; sourceTree = "<group>"; };
-		164EB3EEEA88363B064BC6ADE85ECC28 /* EAIntroPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroPage.m; path = EAIntroView/EAIntroPage.m; sourceTree = "<group>"; };
-		1F36AEE7AAE861104FE400AD93E88BAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FB93278A0105F189E6166F54E5AD493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		230BEDC7FF458C314B581C4F001CD8AF /* EAIntroView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroView.h; path = EAIntroView/EAIntroView.h; sourceTree = "<group>"; };
-		230F8E668A691268692D5BAE7332EA47 /* EARestrictedScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EARestrictedScrollView.xcconfig; sourceTree = "<group>"; };
-		23AC06920CB8817B78AA33F2984F168F /* SMPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMPageControl-prefix.pch"; sourceTree = "<group>"; };
-		277F6335E874C51224A511D84CB345CB /* EARestrictedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EARestrictedScrollView.m; path = EARestrictedScrollView/EARestrictedScrollView.m; sourceTree = "<group>"; };
-		3A6400C220C0BCC296F58BB85369BA3C /* Pods-EAIntroView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EAIntroView.modulemap"; sourceTree = "<group>"; };
-		429256DA0BDD735552A2A1EF312BB3E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44E3B210C9336065045EDC5EDBC2C158 /* EAIntroView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EAIntroView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4744BD187D6D8C967FC3EDBE106083E8 /* EAIntroView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroView.m; path = EAIntroView/EAIntroView.m; sourceTree = "<group>"; };
-		4A39C0EF9D01DEA5FEA591192B86A274 /* EARestrictedScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-umbrella.h"; sourceTree = "<group>"; };
-		5099A313D821601FD3E5D581EF6E2D72 /* Pods-EAIntroView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EAIntroView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		539BA950445062ED1C73617EEEB74AB5 /* SMPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMPageControl-dummy.m"; sourceTree = "<group>"; };
-		61442FFF607F33D797743E716A187BD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81877E4B57AE44EE66EE5A69D242E1BE /* Pods_EAIntroView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAIntroView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82F4ABF3017E47B6C8FBE4B75AE6898B /* EARestrictedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EARestrictedScrollView-dummy.m"; sourceTree = "<group>"; };
-		87AB60971C41181CDCD59AE792067881 /* EAIntroView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-prefix.pch"; sourceTree = "<group>"; };
-		8801827BC0C1C73ED15AA1119C1DF3F0 /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EARestrictedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E56F42BB48D77D056DA933BC0C3F555 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E39B0685549CF2D162E351710F817C7 /* EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EAIntroView-dummy.m"; sourceTree = "<group>"; };
-		9F57784F2008400F529E5EFB092E0AAF /* SMPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4A393A24E60EC382CA2E70BC68C7927 /* SMPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMPageControl-umbrella.h"; sourceTree = "<group>"; };
-		AB49D294EBDC1949B1BC04179125AC32 /* EAIntroView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EAIntroView.xcconfig; sourceTree = "<group>"; };
-		AF7F062519A3B6EB5E0DF9753BA79AEC /* EAIntroView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EAIntroView.modulemap; sourceTree = "<group>"; };
-		B1F131CC468F5D32B261BC052AEE9EF1 /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EARestrictedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB2EA690EFFD52A11F2F2ED249699415 /* Pods-EAIntroView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAIntroView.release.xcconfig"; sourceTree = "<group>"; };
-		BF862338634C83F9B4F4F1820C3B36F4 /* Pods-EAIntroView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAIntroView-frameworks.sh"; sourceTree = "<group>"; };
-		C72B6A75630D37F60267C6F9B7510B85 /* SMPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMPageControl.xcconfig; sourceTree = "<group>"; };
-		C7F426B35562899C73D38F2E445EE9FE /* EAIntroView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-umbrella.h"; sourceTree = "<group>"; };
-		CD6CC02EF85953C2726E73AA3634DD48 /* EAIntroPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroPage.h; path = EAIntroView/EAIntroPage.h; sourceTree = "<group>"; };
-		CD97BB9110A1BAD515771A7A95710C2F /* Pods-EAIntroView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAIntroView.debug.xcconfig"; sourceTree = "<group>"; };
-		E110DEC8CF76CE4B895371CA1C6553F9 /* EARestrictedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-prefix.pch"; sourceTree = "<group>"; };
-		EA70D6786CBFA8889FDDCAD8E3F80989 /* SMPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SMPageControl.h; sourceTree = "<group>"; };
-		EF7D2E302CB2B474D64FB2E922CF9B22 /* EARestrictedScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EARestrictedScrollView.modulemap; sourceTree = "<group>"; };
-		F9203AEE847FC6F09D76BE8FFCB424C2 /* Pods-EAIntroView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EAIntroView-umbrella.h"; sourceTree = "<group>"; };
-		FAB642F9F9DDDDF578C542D13EB39FBA /* Pods-EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EAIntroView-dummy.m"; sourceTree = "<group>"; };
+		14EEB68F7CBF535595EF1400EC9C4609 /* EARestrictedScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EARestrictedScrollView.xcconfig; sourceTree = "<group>"; };
+		16DCCEC28384138F2B740777BB6A9C43 /* EAIntroView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EAIntroView-Info.plist"; sourceTree = "<group>"; };
+		17CE2D400D14ECC51523F38D988E12FD /* SMPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMPageControl.m; sourceTree = "<group>"; };
+		294BD3A08DAD4DC5CEEC0973048CE703 /* EAIntroView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroView.m; path = EAIntroView/EAIntroView.m; sourceTree = "<group>"; };
+		29C90A60F95D3FA9D3FD5C07C5740A6A /* EAIntroView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroView.h; path = EAIntroView/EAIntroView.h; sourceTree = "<group>"; };
+		32D1580F5F94126ECA24B9ED29057B62 /* EAIntroPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroPage.m; path = EAIntroView/EAIntroPage.m; sourceTree = "<group>"; };
+		37566839CD0A26A80B322092F8BC51DD /* SMPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMPageControl.framework; path = SMPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D1FFF44CC60C0FDE3FD413A21346F4 /* EAIntroView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EAIntroView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3DB6331F05B66BB4F97D994895E923FE /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		415F186F934220DA4CD800990FEFB3B2 /* Pods-EAIntroView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAIntroView.release.xcconfig"; sourceTree = "<group>"; };
+		4AADC2B58730D8C8F11C52B627217163 /* EAIntroView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-umbrella.h"; sourceTree = "<group>"; };
+		4B86EFB50D2BB42A5D1AD66A64E5C7E7 /* Pods-EAIntroView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAIntroView-Info.plist"; sourceTree = "<group>"; };
+		54BB406226821EECA112A33434017987 /* SMPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SMPageControl-Info.plist"; sourceTree = "<group>"; };
+		571ADF3417AC9C208BD6533F46AE9200 /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EARestrictedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDCE7E1A97E631B3FC9D914BADE27CA /* SMPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMPageControl-dummy.m"; sourceTree = "<group>"; };
+		5D487EDB5CAA38343B38FF053141FE11 /* Pods-EAIntroView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAIntroView.debug.xcconfig"; sourceTree = "<group>"; };
+		645153AE91EC6FFB8FAA917F0EEEF103 /* EARestrictedScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EARestrictedScrollView-Info.plist"; sourceTree = "<group>"; };
+		648C4FC9DF6FABA575F942D0C29D1FFA /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EARestrictedScrollView.framework; path = EARestrictedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2B9D5F52027F9D0E00E39D775F84E6 /* Pods-EAIntroView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAIntroView-acknowledgements.plist"; sourceTree = "<group>"; };
+		78515203BDC961C8BE19C499A9313644 /* SMPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMPageControl-umbrella.h"; sourceTree = "<group>"; };
+		7E76F8AD3E054143B8F1A2DF1FB7E671 /* EAIntroView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EAIntroView.framework; path = EAIntroView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AC5072847096D9D900FD95D8CA4A91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		881104810C106213516574C6C3561A1C /* Pods-EAIntroView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EAIntroView.modulemap"; sourceTree = "<group>"; };
+		896E88BB24147D7CDE7A5AEDFC0307D7 /* Pods-EAIntroView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAIntroView-frameworks.sh"; sourceTree = "<group>"; };
+		8B20BA6E201A08AA162BC5A46B1E4323 /* EAIntroView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-prefix.pch"; sourceTree = "<group>"; };
+		9473B186EEF376B4D334FF13F695D679 /* Pods-EAIntroView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EAIntroView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99350DA7CDC3E6F2B252E4F4F8A03368 /* Pods-EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EAIntroView-dummy.m"; sourceTree = "<group>"; };
+		9A8722FDEBD6339F085886DC288C4B64 /* SMPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SMPageControl.h; sourceTree = "<group>"; };
+		9B1B2D34D70C5BB11ED6A6230F48D8BF /* Pods_EAIntroView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EAIntroView.framework; path = "Pods-EAIntroView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B00112896445F35A7B4A98499A1B1B4A /* EARestrictedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-prefix.pch"; sourceTree = "<group>"; };
+		B7C62E432B513F2AFA3CDA0A236417AF /* EAIntroView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EAIntroView.xcconfig; sourceTree = "<group>"; };
+		B935D5650450F7215039C211F332FC96 /* EARestrictedScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-umbrella.h"; sourceTree = "<group>"; };
+		BBF16F738D286F7E1885FE0FE5FD66F3 /* EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EAIntroView-dummy.m"; sourceTree = "<group>"; };
+		C25800359C8C694BB838088FCCEBE4C4 /* SMPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMPageControl.xcconfig; sourceTree = "<group>"; };
+		C42EE9CF47492C148CA0BB993682FB1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CA0E3E033B09A2E5EC26B70D4F8B29B4 /* SMPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMPageControl-prefix.pch"; sourceTree = "<group>"; };
+		CB7D932E19C5BA7BE49D15D9996B8A0D /* EAIntroView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EAIntroView.modulemap; sourceTree = "<group>"; };
+		CEB19F26AF26C46CC6CDC1660B8F837C /* EAIntroPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroPage.h; path = EAIntroView/EAIntroPage.h; sourceTree = "<group>"; };
+		D0C91706F7A178BD8A859D053338008E /* EARestrictedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EARestrictedScrollView.m; path = EARestrictedScrollView/EARestrictedScrollView.m; sourceTree = "<group>"; };
+		D88FF57F0E9F1CF9EF768A57F9801D77 /* EARestrictedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EARestrictedScrollView.h; path = EARestrictedScrollView/EARestrictedScrollView.h; sourceTree = "<group>"; };
+		DF2B860AA2AC1755F40D22CBF5635F2F /* SMPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SMPageControl.modulemap; sourceTree = "<group>"; };
+		E2B6665CD1D7AE3C2067F8692ECB6B4F /* Pods-EAIntroView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EAIntroView-umbrella.h"; sourceTree = "<group>"; };
+		E6215145B0747B01FDA4C7AF1904D6D5 /* EARestrictedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EARestrictedScrollView-dummy.m"; sourceTree = "<group>"; };
+		F1C2E183D705CA0BA1B215D76F42CEFE /* EARestrictedScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EARestrictedScrollView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11E6622B4205C08F393DA31941DF5122 /* Frameworks */ = {
+		0D7DE877D908274D4E455DD569F4BE54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DB99A73EEE5C0AE02955B3906043BF6 /* Foundation.framework in Frameworks */,
+				A83CA938A4C8013E9835F1B6D1DF2BF1 /* EARestrictedScrollView.framework in Frameworks */,
+				CF513D80AB8525D6C70DB445C8A14268 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1945E4336A02436E050510F46E349AB6 /* Frameworks */ = {
+		18CD9A3343AF63FE723395C999417297 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A259745CAF4CDB0040B44B85D9414B1 /* Foundation.framework in Frameworks */,
+				E710953B032329627D9DCBEC8749E1AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FCC41F4E90F2572E53B95EC40392A34 /* Frameworks */ = {
+		3708DF88174C97BC051EC03AD0828E0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B8870A51612FE16508BA9448362CB9 /* EARestrictedScrollView.framework in Frameworks */,
-				6194D195FCD9253BBD2C640AD48A6532 /* Foundation.framework in Frameworks */,
+				1AF6E06C15A740AD770A58F442B3A417 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88B664474BF8FCE4A844E614C1E00D28 /* Frameworks */ = {
+		7619FD06125408DE4EC09FBD0FB409B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FFBB20664D7CB5B2337E8975CF251E /* Foundation.framework in Frameworks */,
+				B59AAD60E5669B77EA96A7DE63B04E3E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B9DCAA532ADA9CBD1F1ABA317E56001 /* Support Files */ = {
+		0CBB681685D3E56BBD1EFF69136A9BF5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AF7F062519A3B6EB5E0DF9753BA79AEC /* EAIntroView.modulemap */,
-				AB49D294EBDC1949B1BC04179125AC32 /* EAIntroView.xcconfig */,
-				9E39B0685549CF2D162E351710F817C7 /* EAIntroView-dummy.m */,
-				87AB60971C41181CDCD59AE792067881 /* EAIntroView-prefix.pch */,
-				C7F426B35562899C73D38F2E445EE9FE /* EAIntroView-umbrella.h */,
-				1FB93278A0105F189E6166F54E5AD493 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EAIntroView";
-			sourceTree = "<group>";
-		};
-		0FF106CB0A979DBD019A9523C02B6825 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				44E3B210C9336065045EDC5EDBC2C158 /* EAIntroView.framework */,
-				8801827BC0C1C73ED15AA1119C1DF3F0 /* EARestrictedScrollView.framework */,
-				81877E4B57AE44EE66EE5A69D242E1BE /* Pods_EAIntroView.framework */,
-				9F57784F2008400F529E5EFB092E0AAF /* SMPageControl.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		11E9B2B5B804D28DAF3E9FC088386807 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9DBEFA8874FB764110517B93CC4A96B9 /* Pods-EAIntroView */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		161092595C9F7FCC74AC9A68F699F491 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B1F131CC468F5D32B261BC052AEE9EF1 /* EARestrictedScrollView.framework */,
-				FB03058B372C5D7927F57E698CED30CA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		193B42BA799E6BC797E1698B4042D3DF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AFC54FEC717FE071E3E521E82D47EFE7 /* EAIntroView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		23C9CEC05914F11EA72D671CDD66FBA7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				61442FFF607F33D797743E716A187BD6 /* Info.plist */,
-				05190E65756AF3E3804C251087D3FC51 /* SMPageControl.modulemap */,
-				C72B6A75630D37F60267C6F9B7510B85 /* SMPageControl.xcconfig */,
-				539BA950445062ED1C73617EEEB74AB5 /* SMPageControl-dummy.m */,
-				23AC06920CB8817B78AA33F2984F168F /* SMPageControl-prefix.pch */,
-				A4A393A24E60EC382CA2E70BC68C7927 /* SMPageControl-umbrella.h */,
+				DF2B860AA2AC1755F40D22CBF5635F2F /* SMPageControl.modulemap */,
+				C25800359C8C694BB838088FCCEBE4C4 /* SMPageControl.xcconfig */,
+				5BDCE7E1A97E631B3FC9D914BADE27CA /* SMPageControl-dummy.m */,
+				54BB406226821EECA112A33434017987 /* SMPageControl-Info.plist */,
+				CA0E3E033B09A2E5EC26B70D4F8B29B4 /* SMPageControl-prefix.pch */,
+				78515203BDC961C8BE19C499A9313644 /* SMPageControl-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SMPageControl";
 			sourceTree = "<group>";
 		};
-		655213B373C1C4C33F01C96BB7129168 /* EARestrictedScrollView */ = {
+		328BBA98B124990D063BF4BA541584EB /* EAIntroView */ = {
 			isa = PBXGroup;
 			children = (
-				15AC623A9DDD2B959378E7A335C59F38 /* EARestrictedScrollView.h */,
-				277F6335E874C51224A511D84CB345CB /* EARestrictedScrollView.m */,
-				6C7995E74CCB6A1CC33F990C36256AF0 /* Support Files */,
-			);
-			path = EARestrictedScrollView;
-			sourceTree = "<group>";
-		};
-		6C7995E74CCB6A1CC33F990C36256AF0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF7D2E302CB2B474D64FB2E922CF9B22 /* EARestrictedScrollView.modulemap */,
-				230F8E668A691268692D5BAE7332EA47 /* EARestrictedScrollView.xcconfig */,
-				82F4ABF3017E47B6C8FBE4B75AE6898B /* EARestrictedScrollView-dummy.m */,
-				E110DEC8CF76CE4B895371CA1C6553F9 /* EARestrictedScrollView-prefix.pch */,
-				4A39C0EF9D01DEA5FEA591192B86A274 /* EARestrictedScrollView-umbrella.h */,
-				1F36AEE7AAE861104FE400AD93E88BAA /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EARestrictedScrollView";
-			sourceTree = "<group>";
-		};
-		737FAAB55D5CE303E6DCC588FE1D7CA6 /* SMPageControl */ = {
-			isa = PBXGroup;
-			children = (
-				EA70D6786CBFA8889FDDCAD8E3F80989 /* SMPageControl.h */,
-				14CA7CA4507F31CE05EE92AF7C25F1CB /* SMPageControl.m */,
-				23C9CEC05914F11EA72D671CDD66FBA7 /* Support Files */,
-			);
-			path = SMPageControl;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				193B42BA799E6BC797E1698B4042D3DF /* Development Pods */,
-				161092595C9F7FCC74AC9A68F699F491 /* Frameworks */,
-				88E93F3F8967D62D85F6B0522BE9B248 /* Pods */,
-				0FF106CB0A979DBD019A9523C02B6825 /* Products */,
-				11E9B2B5B804D28DAF3E9FC088386807 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		88E93F3F8967D62D85F6B0522BE9B248 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				655213B373C1C4C33F01C96BB7129168 /* EARestrictedScrollView */,
-				737FAAB55D5CE303E6DCC588FE1D7CA6 /* SMPageControl */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9DBEFA8874FB764110517B93CC4A96B9 /* Pods-EAIntroView */ = {
-			isa = PBXGroup;
-			children = (
-				429256DA0BDD735552A2A1EF312BB3E6 /* Info.plist */,
-				3A6400C220C0BCC296F58BB85369BA3C /* Pods-EAIntroView.modulemap */,
-				5099A313D821601FD3E5D581EF6E2D72 /* Pods-EAIntroView-acknowledgements.markdown */,
-				0E1F91E1A70314953D7D34548A651758 /* Pods-EAIntroView-acknowledgements.plist */,
-				FAB642F9F9DDDDF578C542D13EB39FBA /* Pods-EAIntroView-dummy.m */,
-				BF862338634C83F9B4F4F1820C3B36F4 /* Pods-EAIntroView-frameworks.sh */,
-				0F64C70995E1E66F94C0483ADC34A0A3 /* Pods-EAIntroView-resources.sh */,
-				F9203AEE847FC6F09D76BE8FFCB424C2 /* Pods-EAIntroView-umbrella.h */,
-				CD97BB9110A1BAD515771A7A95710C2F /* Pods-EAIntroView.debug.xcconfig */,
-				BB2EA690EFFD52A11F2F2ED249699415 /* Pods-EAIntroView.release.xcconfig */,
-			);
-			name = "Pods-EAIntroView";
-			path = "Target Support Files/Pods-EAIntroView";
-			sourceTree = "<group>";
-		};
-		AFC54FEC717FE071E3E521E82D47EFE7 /* EAIntroView */ = {
-			isa = PBXGroup;
-			children = (
-				CD6CC02EF85953C2726E73AA3634DD48 /* EAIntroPage.h */,
-				164EB3EEEA88363B064BC6ADE85ECC28 /* EAIntroPage.m */,
-				230BEDC7FF458C314B581C4F001CD8AF /* EAIntroView.h */,
-				4744BD187D6D8C967FC3EDBE106083E8 /* EAIntroView.m */,
-				0B9DCAA532ADA9CBD1F1ABA317E56001 /* Support Files */,
+				CEB19F26AF26C46CC6CDC1660B8F837C /* EAIntroPage.h */,
+				32D1580F5F94126ECA24B9ED29057B62 /* EAIntroPage.m */,
+				29C90A60F95D3FA9D3FD5C07C5740A6A /* EAIntroView.h */,
+				294BD3A08DAD4DC5CEEC0973048CE703 /* EAIntroView.m */,
+				D66D6FE90573EEC52EA6364B4E4FFEFF /* Pod */,
+				E06A209B8ECA0A6CE7F537DC1D75C89F /* Support Files */,
 			);
 			name = EAIntroView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FB03058B372C5D7927F57E698CED30CA /* iOS */ = {
+		3808F0CC787BCDF8AC78E4123A677068 /* EARestrictedScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				8E56F42BB48D77D056DA933BC0C3F555 /* Foundation.framework */,
+				D88FF57F0E9F1CF9EF768A57F9801D77 /* EARestrictedScrollView.h */,
+				D0C91706F7A178BD8A859D053338008E /* EARestrictedScrollView.m */,
+				46BD6A8C60C1169ADD35A71F7085FB84 /* Support Files */,
+			);
+			name = EARestrictedScrollView;
+			path = EARestrictedScrollView;
+			sourceTree = "<group>";
+		};
+		40D6BC0734CBD10EC088C08EC7C3484D /* SMPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				9A8722FDEBD6339F085886DC288C4B64 /* SMPageControl.h */,
+				17CE2D400D14ECC51523F38D988E12FD /* SMPageControl.m */,
+				0CBB681685D3E56BBD1EFF69136A9BF5 /* Support Files */,
+			);
+			name = SMPageControl;
+			path = SMPageControl;
+			sourceTree = "<group>";
+		};
+		46BD6A8C60C1169ADD35A71F7085FB84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2E183D705CA0BA1B215D76F42CEFE /* EARestrictedScrollView.modulemap */,
+				14EEB68F7CBF535595EF1400EC9C4609 /* EARestrictedScrollView.xcconfig */,
+				E6215145B0747B01FDA4C7AF1904D6D5 /* EARestrictedScrollView-dummy.m */,
+				645153AE91EC6FFB8FAA917F0EEEF103 /* EARestrictedScrollView-Info.plist */,
+				B00112896445F35A7B4A98499A1B1B4A /* EARestrictedScrollView-prefix.pch */,
+				B935D5650450F7215039C211F332FC96 /* EARestrictedScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EARestrictedScrollView";
+			sourceTree = "<group>";
+		};
+		4A921A8E0D9E910AA54F622F9D1F7E10 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B3BF9790B86F79D61F7ED06E89E4295 /* Pods-EAIntroView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53AF7059F17A2875A3446F1986ECCDD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E76F8AD3E054143B8F1A2DF1FB7E671 /* EAIntroView.framework */,
+				648C4FC9DF6FABA575F942D0C29D1FFA /* EARestrictedScrollView.framework */,
+				9B1B2D34D70C5BB11ED6A6230F48D8BF /* Pods_EAIntroView.framework */,
+				37566839CD0A26A80B322092F8BC51DD /* SMPageControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587744CBF2DF6547FE4CB733B529195A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3808F0CC787BCDF8AC78E4123A677068 /* EARestrictedScrollView */,
+				40D6BC0734CBD10EC088C08EC7C3484D /* SMPageControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B3BF9790B86F79D61F7ED06E89E4295 /* Pods-EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				881104810C106213516574C6C3561A1C /* Pods-EAIntroView.modulemap */,
+				9473B186EEF376B4D334FF13F695D679 /* Pods-EAIntroView-acknowledgements.markdown */,
+				6D2B9D5F52027F9D0E00E39D775F84E6 /* Pods-EAIntroView-acknowledgements.plist */,
+				99350DA7CDC3E6F2B252E4F4F8A03368 /* Pods-EAIntroView-dummy.m */,
+				896E88BB24147D7CDE7A5AEDFC0307D7 /* Pods-EAIntroView-frameworks.sh */,
+				4B86EFB50D2BB42A5D1AD66A64E5C7E7 /* Pods-EAIntroView-Info.plist */,
+				E2B6665CD1D7AE3C2067F8692ECB6B4F /* Pods-EAIntroView-umbrella.h */,
+				5D487EDB5CAA38343B38FF053141FE11 /* Pods-EAIntroView.debug.xcconfig */,
+				415F186F934220DA4CD800990FEFB3B2 /* Pods-EAIntroView.release.xcconfig */,
+			);
+			name = "Pods-EAIntroView";
+			path = "Target Support Files/Pods-EAIntroView";
+			sourceTree = "<group>";
+		};
+		9E28B3863DA83CA79851734389A14F0E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				81AC5072847096D9D900FD95D8CA4A91 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D7521776A4F969F5D15D95D6C5B8B0F0 /* Development Pods */,
+				DE77B13C67ADEC49B3EC6E28B6AD5F53 /* Frameworks */,
+				587744CBF2DF6547FE4CB733B529195A /* Pods */,
+				53AF7059F17A2875A3446F1986ECCDD2 /* Products */,
+				4A921A8E0D9E910AA54F622F9D1F7E10 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D66D6FE90573EEC52EA6364B4E4FFEFF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				38D1FFF44CC60C0FDE3FD413A21346F4 /* EAIntroView.podspec */,
+				3DB6331F05B66BB4F97D994895E923FE /* LICENSE.md */,
+				C42EE9CF47492C148CA0BB993682FB1C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D7521776A4F969F5D15D95D6C5B8B0F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				328BBA98B124990D063BF4BA541584EB /* EAIntroView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE77B13C67ADEC49B3EC6E28B6AD5F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571ADF3417AC9C208BD6533F46AE9200 /* EARestrictedScrollView.framework */,
+				9E28B3863DA83CA79851734389A14F0E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06A209B8ECA0A6CE7F537DC1D75C89F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7D932E19C5BA7BE49D15D9996B8A0D /* EAIntroView.modulemap */,
+				B7C62E432B513F2AFA3CDA0A236417AF /* EAIntroView.xcconfig */,
+				BBF16F738D286F7E1885FE0FE5FD66F3 /* EAIntroView-dummy.m */,
+				16DCCEC28384138F2B740777BB6A9C43 /* EAIntroView-Info.plist */,
+				8B20BA6E201A08AA162BC5A46B1E4323 /* EAIntroView-prefix.pch */,
+				4AADC2B58730D8C8F11C52B627217163 /* EAIntroView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EAIntroView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26F91B021110D7B66926FFBAEFCB7202 /* Headers */ = {
+		3F2FC00213C6823D326E0868F80CF443 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA196FBDF9F3A5BFC4655F2F383830C5 /* SMPageControl-umbrella.h in Headers */,
-				E09DB642B871EE0832DBDA971D628FEA /* SMPageControl.h in Headers */,
+				247F5206EDFAB43C9FC3CCC3592D1A87 /* Pods-EAIntroView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654389B36D895FAEC6A8C83D7688607A /* Headers */ = {
+		9F759ADA58E977667359223A531E862D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5265B119E5E1633AEB31F03A1751634F /* Pods-EAIntroView-umbrella.h in Headers */,
+				DC1B6E2E1FD8CEE6547C0B90A116B7D8 /* EARestrictedScrollView-umbrella.h in Headers */,
+				F293885FC744DA72763CA71F71B9653F /* EARestrictedScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C671F4065968BAC4CE3937952CAC2C1E /* Headers */ = {
+		B7302A3BA409026DD9E7307B9D7E2D23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35843D6B720611CD4E0BB4372C6E521A /* EAIntroPage.h in Headers */,
-				4EA4A852D1D8C36A63ED5E157029EC06 /* EAIntroView-umbrella.h in Headers */,
-				501396162015F7B2D3D6629BFB27F7C9 /* EAIntroView.h in Headers */,
+				90EADA08C24A36FD75FA04BC34C0256E /* EAIntroPage.h in Headers */,
+				8280447ED6E742004CA309A12A0EAF64 /* EAIntroView-umbrella.h in Headers */,
+				B663D477ABE56225DCAAD4B8E3AC2C6E /* EAIntroView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAE9E53F94A5B9290A44D40D09523886 /* Headers */ = {
+		EDDB10AA77D066B19583DE33547510B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599EC797D93F4BEB8EC9C246DBC36125 /* EARestrictedScrollView-umbrella.h in Headers */,
-				49A40958B574F4AA0622B86E3DAA19F5 /* EARestrictedScrollView.h in Headers */,
+				62BB7DEC4EB5E2D99AF0EB92E3EBDCC8 /* SMPageControl-umbrella.h in Headers */,
+				5FE4A3A618B40FC80D1FCAEE7C878C15 /* SMPageControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		58AAD2C9E898747F2F4ABF348E6325F2 /* EARestrictedScrollView */ = {
+		0D772E704D0B9C773AADE04792547E65 /* EAIntroView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8472F561CB64FB8CE3D0D392D30827E /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */;
+			buildConfigurationList = B9B27548BD0FBA0098B2293FD8C52991 /* Build configuration list for PBXNativeTarget "EAIntroView" */;
 			buildPhases = (
-				0B21E6D709211D6DD0798D60E8EEEFAC /* Sources */,
-				11E6622B4205C08F393DA31941DF5122 /* Frameworks */,
-				CAE9E53F94A5B9290A44D40D09523886 /* Headers */,
+				B7302A3BA409026DD9E7307B9D7E2D23 /* Headers */,
+				3B68F204DAE9E6BBDA6FC5A0D3D537AC /* Sources */,
+				0D7DE877D908274D4E455DD569F4BE54 /* Frameworks */,
+				E76915F6BAA82A4435DDE5204A7E4E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44DAFD6884AC9806459DB64CF12A4CF /* PBXTargetDependency */,
+			);
+			name = EAIntroView;
+			productName = EAIntroView;
+			productReference = 7E76F8AD3E054143B8F1A2DF1FB7E671 /* EAIntroView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85AC4C773FAB18114F2C28B1CCD77084 /* Pods-EAIntroView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2041E486FC2892BFE0CA21D7B6EBF598 /* Build configuration list for PBXNativeTarget "Pods-EAIntroView" */;
+			buildPhases = (
+				3F2FC00213C6823D326E0868F80CF443 /* Headers */,
+				FB90F775E7FD33D86CC242BC31534553 /* Sources */,
+				7619FD06125408DE4EC09FBD0FB409B1 /* Frameworks */,
+				C1624ADA2F3FB397E92E38A2099ED3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C31195D5CBA173F78C59B95711E19D /* PBXTargetDependency */,
+				B3E76373A5A9BE5DD893D37247EC9168 /* PBXTargetDependency */,
+				4B37CAA9834DD311AD244D8A74CC977E /* PBXTargetDependency */,
+			);
+			name = "Pods-EAIntroView";
+			productName = "Pods-EAIntroView";
+			productReference = 9B1B2D34D70C5BB11ED6A6230F48D8BF /* Pods_EAIntroView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA3208195600261A475C3473888B2F3C /* EARestrictedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D187ACB7C441EFAAED646F821EC39D7B /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */;
+			buildPhases = (
+				9F759ADA58E977667359223A531E862D /* Headers */,
+				6B7E8B23D4A33F5AF1F3EF9F991A9519 /* Sources */,
+				18CD9A3343AF63FE723395C999417297 /* Frameworks */,
+				3B8BF7E7B83D6084F90C0D252BACBC52 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -358,34 +413,17 @@
 			);
 			name = EARestrictedScrollView;
 			productName = EARestrictedScrollView;
-			productReference = 8801827BC0C1C73ED15AA1119C1DF3F0 /* EARestrictedScrollView.framework */;
+			productReference = 648C4FC9DF6FABA575F942D0C29D1FFA /* EARestrictedScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		822DA31A6A34C7EF41E1EC7A5EF8FC2F /* EAIntroView */ = {
+		AC7985E2C4E8DC8625136534CDA3F5DF /* SMPageControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE33DA26C9464A33AF8F0E572B1F739E /* Build configuration list for PBXNativeTarget "EAIntroView" */;
+			buildConfigurationList = 73050B06E0C955AFFE4BF475BEF9CE3C /* Build configuration list for PBXNativeTarget "SMPageControl" */;
 			buildPhases = (
-				0C0FDB7A17544A248D55BDCE0D5F06FE /* Sources */,
-				5FCC41F4E90F2572E53B95EC40392A34 /* Frameworks */,
-				C671F4065968BAC4CE3937952CAC2C1E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2EF0550E37222B5E47D0ED793E95D4F /* PBXTargetDependency */,
-			);
-			name = EAIntroView;
-			productName = EAIntroView;
-			productReference = 44E3B210C9336065045EDC5EDBC2C158 /* EAIntroView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A7C52FF4A2E47479452531A91B559670 /* SMPageControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48A6D0F692A2C6D371374AD791EE9A30 /* Build configuration list for PBXNativeTarget "SMPageControl" */;
-			buildPhases = (
-				C17C3C9CC6D1E86C83D99395E00D8885 /* Sources */,
-				88B664474BF8FCE4A844E614C1E00D28 /* Frameworks */,
-				26F91B021110D7B66926FFBAEFCB7202 /* Headers */,
+				EDDB10AA77D066B19583DE33547510B5 /* Headers */,
+				7382635862DED897DCE59089309C3E1E /* Sources */,
+				3708DF88174C97BC051EC03AD0828E0C /* Frameworks */,
+				8CA7703271475BE2E8DD49B81F335E81 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -393,129 +431,141 @@
 			);
 			name = SMPageControl;
 			productName = SMPageControl;
-			productReference = 9F57784F2008400F529E5EFB092E0AAF /* SMPageControl.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ED9E72E5F77EE16494E327966C4D3CC1 /* Pods-EAIntroView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96D8229860C25651489D2612B9593EDB /* Build configuration list for PBXNativeTarget "Pods-EAIntroView" */;
-			buildPhases = (
-				A3C474ADFE6DA97B1B00B8EAA9323C8F /* Sources */,
-				1945E4336A02436E050510F46E349AB6 /* Frameworks */,
-				654389B36D895FAEC6A8C83D7688607A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				186AF3FBE5DCF59A27D6C63F2F4E2575 /* PBXTargetDependency */,
-				9C0E841D37E0E7B230CCF1A2CC758D66 /* PBXTargetDependency */,
-				E09D64B192BAB1FE254139C425DAF520 /* PBXTargetDependency */,
-			);
-			name = "Pods-EAIntroView";
-			productName = "Pods-EAIntroView";
-			productReference = 81877E4B57AE44EE66EE5A69D242E1BE /* Pods_EAIntroView.framework */;
+			productReference = 37566839CD0A26A80B322092F8BC51DD /* SMPageControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0FF106CB0A979DBD019A9523C02B6825 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 53AF7059F17A2875A3446F1986ECCDD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				822DA31A6A34C7EF41E1EC7A5EF8FC2F /* EAIntroView */,
-				58AAD2C9E898747F2F4ABF348E6325F2 /* EARestrictedScrollView */,
-				ED9E72E5F77EE16494E327966C4D3CC1 /* Pods-EAIntroView */,
-				A7C52FF4A2E47479452531A91B559670 /* SMPageControl */,
+				0D772E704D0B9C773AADE04792547E65 /* EAIntroView */,
+				AA3208195600261A475C3473888B2F3C /* EARestrictedScrollView */,
+				85AC4C773FAB18114F2C28B1CCD77084 /* Pods-EAIntroView */,
+				AC7985E2C4E8DC8625136534CDA3F5DF /* SMPageControl */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3B8BF7E7B83D6084F90C0D252BACBC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA7703271475BE2E8DD49B81F335E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1624ADA2F3FB397E92E38A2099ED3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76915F6BAA82A4435DDE5204A7E4E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0B21E6D709211D6DD0798D60E8EEEFAC /* Sources */ = {
+		3B68F204DAE9E6BBDA6FC5A0D3D537AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCD230BC815C775651F2054A0DAE32E7 /* EARestrictedScrollView-dummy.m in Sources */,
-				EABBB2F663609893680E5B6F1622F5E6 /* EARestrictedScrollView.m in Sources */,
+				7996E3C2A6E49F63DCD4336A77492F13 /* EAIntroPage.m in Sources */,
+				69E049BB00900848758E8EA672CCC681 /* EAIntroView-dummy.m in Sources */,
+				D4BC12C8B19AFC83FC5B74A2DF272C42 /* EAIntroView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C0FDB7A17544A248D55BDCE0D5F06FE /* Sources */ = {
+		6B7E8B23D4A33F5AF1F3EF9F991A9519 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41EB9232CC9C9A7A1D5A6F221D1EDB4 /* EAIntroPage.m in Sources */,
-				342FD0CF5A19992200CDCD679F2D71C6 /* EAIntroView-dummy.m in Sources */,
-				EA705D6826863CE9297E92D5673EEDCE /* EAIntroView.m in Sources */,
+				447663029F2117B75653BFF8BDF36081 /* EARestrictedScrollView-dummy.m in Sources */,
+				F0955AE1BA4EA93C868E26069D0ED6FB /* EARestrictedScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3C474ADFE6DA97B1B00B8EAA9323C8F /* Sources */ = {
+		7382635862DED897DCE59089309C3E1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C94151781DC90EACF900245D485336 /* Pods-EAIntroView-dummy.m in Sources */,
+				38520FA46DEFE249A70D1CBF0AB69AB0 /* SMPageControl-dummy.m in Sources */,
+				FA4059D3CF653A004F9964A945414547 /* SMPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17C3C9CC6D1E86C83D99395E00D8885 /* Sources */ = {
+		FB90F775E7FD33D86CC242BC31534553 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E4C27684888A5ADE0E02EFC245E9003 /* SMPageControl-dummy.m in Sources */,
-				B7B2AE504A4CFBE163A40DBB5E488227 /* SMPageControl.m in Sources */,
+				D89E2F7F711BEB9EA32D6DCDB7EC2B38 /* Pods-EAIntroView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		186AF3FBE5DCF59A27D6C63F2F4E2575 /* PBXTargetDependency */ = {
+		24C31195D5CBA173F78C59B95711E19D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EAIntroView;
-			target = 822DA31A6A34C7EF41E1EC7A5EF8FC2F /* EAIntroView */;
-			targetProxy = 381890CD6DACFBFB7DC2BC461F9B7954 /* PBXContainerItemProxy */;
+			target = 0D772E704D0B9C773AADE04792547E65 /* EAIntroView */;
+			targetProxy = 5CD2BA08BE8BF0DA97B326C1AD9C5D21 /* PBXContainerItemProxy */;
 		};
-		9C0E841D37E0E7B230CCF1A2CC758D66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EARestrictedScrollView;
-			target = 58AAD2C9E898747F2F4ABF348E6325F2 /* EARestrictedScrollView */;
-			targetProxy = D1D3FEAF68B3004BF0F129FB76E1BF5C /* PBXContainerItemProxy */;
-		};
-		D2EF0550E37222B5E47D0ED793E95D4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EARestrictedScrollView;
-			target = 58AAD2C9E898747F2F4ABF348E6325F2 /* EARestrictedScrollView */;
-			targetProxy = 3BD0AABA668B69C63611634E350F4621 /* PBXContainerItemProxy */;
-		};
-		E09D64B192BAB1FE254139C425DAF520 /* PBXTargetDependency */ = {
+		4B37CAA9834DD311AD244D8A74CC977E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SMPageControl;
-			target = A7C52FF4A2E47479452531A91B559670 /* SMPageControl */;
-			targetProxy = 2723242F1441EEFC0C1ED85953B2C48E /* PBXContainerItemProxy */;
+			target = AC7985E2C4E8DC8625136534CDA3F5DF /* SMPageControl */;
+			targetProxy = F07ECE6A72DB49208B931F87892BF4A3 /* PBXContainerItemProxy */;
+		};
+		B3E76373A5A9BE5DD893D37247EC9168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EARestrictedScrollView;
+			target = AA3208195600261A475C3473888B2F3C /* EARestrictedScrollView */;
+			targetProxy = ED337CD28D6672D39AC6B4D709802D67 /* PBXContainerItemProxy */;
+		};
+		D44DAFD6884AC9806459DB64CF12A4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EARestrictedScrollView;
+			target = AA3208195600261A475C3473888B2F3C /* EARestrictedScrollView */;
+			targetProxy = DC5D86616A8B91977DE1785EF2655948 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11DA02654955BAD94910B5BF11683BB0 /* Release */ = {
+		011FB3D5092393441327E6A4E77DC7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB49D294EBDC1949B1BC04179125AC32 /* EAIntroView.xcconfig */;
+			baseConfigurationReference = 5D487EDB5CAA38343B38FF053141FE11 /* Pods-EAIntroView.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -525,26 +575,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EAIntroView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EAIntroView/Pods-EAIntroView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EAIntroView/EAIntroView.modulemap";
-				PRODUCT_NAME = EAIntroView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EAIntroView/Pods-EAIntroView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		16FF50A7477C6EC949D89611C2B9EBA2 /* Debug */ = {
+		0FC764AE648E33E34F9454F871FE559F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230F8E668A691268692D5BAE7332EA47 /* EARestrictedScrollView.xcconfig */;
+			baseConfigurationReference = 14EEB68F7CBF535595EF1400EC9C4609 /* EARestrictedScrollView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -556,11 +608,107 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EARestrictedScrollView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView.modulemap";
+				PRODUCT_MODULE_NAME = EARestrictedScrollView;
+				PRODUCT_NAME = EARestrictedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		399198733275223A14C19C94AE5526CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25800359C8C694BB838088FCCEBE4C4 /* SMPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SMPageControl/SMPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMPageControl/SMPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMPageControl/SMPageControl.modulemap";
+				PRODUCT_MODULE_NAME = SMPageControl;
+				PRODUCT_NAME = SMPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BCC1702D38C31468F98282EE099D608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415F186F934220DA4CD800990FEFB3B2 /* Pods-EAIntroView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EAIntroView/Pods-EAIntroView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EAIntroView/Pods-EAIntroView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D7E52D8B11A95474255B6A97B2E67BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14EEB68F7CBF535595EF1400EC9C4609 /* EARestrictedScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView.modulemap";
+				PRODUCT_MODULE_NAME = EARestrictedScrollView;
 				PRODUCT_NAME = EARestrictedScrollView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -571,7 +719,37 @@
 			};
 			name = Debug;
 		};
-		1D42551453DD6C499154FE036B90CD5F /* Debug */ = {
+		8BB03490F493026774AE3A0694FFEF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C62E432B513F2AFA3CDA0A236417AF /* EAIntroView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EAIntroView/EAIntroView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EAIntroView/EAIntroView.modulemap";
+				PRODUCT_MODULE_NAME = EAIntroView;
+				PRODUCT_NAME = EAIntroView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3994EDDFAD57ECBD841D30936E3D53A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -581,6 +759,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -602,7 +781,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -623,51 +801,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		2A596CC94B8815764C6505DF04B5B8D7 /* Debug */ = {
+		BDFAEC5982D55796B8A0EF1F0D85A6A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD97BB9110A1BAD515771A7A95710C2F /* Pods-EAIntroView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EAIntroView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EAIntroView/Pods-EAIntroView.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EAIntroView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6D975D6335246D24842E845DC82F2AA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C72B6A75630D37F60267C6F9B7510B85 /* SMPageControl.xcconfig */;
+			baseConfigurationReference = C25800359C8C694BB838088FCCEBE4C4 /* SMPageControl.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -679,69 +827,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/SMPageControl/SMPageControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SMPageControl/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SMPageControl/SMPageControl-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SMPageControl/SMPageControl.modulemap";
-				PRODUCT_NAME = SMPageControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7BF03E84E355AFF72296D879FA6EE5D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB49D294EBDC1949B1BC04179125AC32 /* EAIntroView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EAIntroView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EAIntroView/EAIntroView.modulemap";
-				PRODUCT_NAME = EAIntroView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		845FF5622704FDB6C0A7562935AB9DA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C72B6A75630D37F60267C6F9B7510B85 /* SMPageControl.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SMPageControl/SMPageControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SMPageControl/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SMPageControl/SMPageControl.modulemap";
+				PRODUCT_MODULE_NAME = SMPageControl;
 				PRODUCT_NAME = SMPageControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -753,7 +844,38 @@
 			};
 			name = Release;
 		};
-		A796627992855501F9610EEA9E4DEA35 /* Release */ = {
+		BE1C1D251667262F94B7F235B9BA4154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C62E432B513F2AFA3CDA0A236417AF /* EAIntroView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EAIntroView/EAIntroView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EAIntroView/EAIntroView.modulemap";
+				PRODUCT_MODULE_NAME = EAIntroView;
+				PRODUCT_NAME = EAIntroView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E84EB55B2AA27AC7B0F8C03A6ADB0CC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -763,6 +885,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -784,7 +907,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -803,125 +925,65 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F7524540BB98C9BF9C2082CF18334915 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230F8E668A691268692D5BAE7332EA47 /* EARestrictedScrollView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EARestrictedScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView.modulemap";
-				PRODUCT_NAME = EARestrictedScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA5090F001550C8FD0F81F678472E912 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2EA690EFFD52A11F2F2ED249699415 /* Pods-EAIntroView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EAIntroView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EAIntroView/Pods-EAIntroView.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EAIntroView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		2041E486FC2892BFE0CA21D7B6EBF598 /* Build configuration list for PBXNativeTarget "Pods-EAIntroView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D42551453DD6C499154FE036B90CD5F /* Debug */,
-				A796627992855501F9610EEA9E4DEA35 /* Release */,
+				011FB3D5092393441327E6A4E77DC7CC /* Debug */,
+				5BCC1702D38C31468F98282EE099D608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48A6D0F692A2C6D371374AD791EE9A30 /* Build configuration list for PBXNativeTarget "SMPageControl" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D975D6335246D24842E845DC82F2AA2 /* Debug */,
-				845FF5622704FDB6C0A7562935AB9DA4 /* Release */,
+				B3994EDDFAD57ECBD841D30936E3D53A /* Debug */,
+				E84EB55B2AA27AC7B0F8C03A6ADB0CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96D8229860C25651489D2612B9593EDB /* Build configuration list for PBXNativeTarget "Pods-EAIntroView" */ = {
+		73050B06E0C955AFFE4BF475BEF9CE3C /* Build configuration list for PBXNativeTarget "SMPageControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A596CC94B8815764C6505DF04B5B8D7 /* Debug */,
-				FA5090F001550C8FD0F81F678472E912 /* Release */,
+				399198733275223A14C19C94AE5526CB /* Debug */,
+				BDFAEC5982D55796B8A0EF1F0D85A6A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8472F561CB64FB8CE3D0D392D30827E /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */ = {
+		B9B27548BD0FBA0098B2293FD8C52991 /* Build configuration list for PBXNativeTarget "EAIntroView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16FF50A7477C6EC949D89611C2B9EBA2 /* Debug */,
-				F7524540BB98C9BF9C2082CF18334915 /* Release */,
+				8BB03490F493026774AE3A0694FFEF0C /* Debug */,
+				BE1C1D251667262F94B7F235B9BA4154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE33DA26C9464A33AF8F0E572B1F739E /* Build configuration list for PBXNativeTarget "EAIntroView" */ = {
+		D187ACB7C441EFAAED646F821EC39D7B /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BF03E84E355AFF72296D879FA6EE5D5 /* Debug */,
-				11DA02654955BAD94910B5BF11683BB0 /* Release */,
+				7D7E52D8B11A95474255B6A97B2E67BC /* Debug */,
+				0FC764AE648E33E34F9454F871FE559F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

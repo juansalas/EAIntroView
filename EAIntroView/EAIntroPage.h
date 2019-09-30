@@ -32,7 +32,7 @@ typedef void (^VoidBlock)(void);
 @property (nonatomic, strong) UIView * titleIconView;
 
 @property (nonatomic, assign) CGFloat titleIconPositionY;
-@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSAttributedString *title;
 @property (nonatomic, strong) UIFont *titleFont;
 @property (nonatomic, strong) UIColor *titleColor;
 @property (nonatomic, assign) CGFloat titlePositionY;

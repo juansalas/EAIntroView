@@ -408,7 +408,7 @@
     UILabel *titleLabel;
     if (page.title.length) {
         titleLabel = [[UILabel alloc] init];
-        titleLabel.text = page.title;
+        titleLabel.attributedText = page.title;
         titleLabel.font = page.titleFont;
         titleLabel.textColor = page.titleColor;
         titleLabel.backgroundColor = [UIColor clearColor];

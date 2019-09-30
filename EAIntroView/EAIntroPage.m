@@ -29,7 +29,7 @@
         _titlePositionY  = DEFAULT_TITLE_LABEL_Y_POSITION;
         _descPositionY   = DEFAULT_DESCRIPTION_LABEL_Y_POSITION;
         _descSideMargin   = DEFAULT_DESCRIPTION_LABEL_SIDE_MARGIN;
-        _title = @"";
+        _title = [NSAttributedString new];
         _titleFont = DEFAULT_TITLE_FONT;
         _titleColor = DEFAULT_LABEL_COLOR;
         _titleAlignment = NSTextAlignmentCenter;
