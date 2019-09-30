@@ -440,7 +440,7 @@
     UITextView *descLabel;
     if (page.desc.length) {
         descLabel = [[UITextView alloc] init];
-        descLabel.text = page.desc;
+        descLabel.attributedText = page.desc;
         descLabel.scrollEnabled = NO;
         descLabel.font = page.descFont;
         descLabel.textColor = page.descColor;
