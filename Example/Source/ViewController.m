@@ -36,25 +36,31 @@ static NSString * const sampleDescription4 = @"Nam libero tempore, cum soluta no
 - (void)showIntroWithCrossDissolve {
     EAIntroPage *page1 = [EAIntroPage page];
     page1.title = [[NSAttributedString alloc] initWithString:@"Hello world"];
-    page1.desc = sampleDescription1;
+    
+    UIFont *font = [UIFont fontWithName:@"Palatino-Roman" size:40.0];
+    NSDictionary *attrsDictionary = [NSDictionary dictionaryWithObject:font
+                                    forKey:NSFontAttributeName];
+    NSAttributedString *attrString = [[NSAttributedString alloc] initWithString:@"strigil" attributes:attrsDictionary];
+    
+    page1.desc = attrString;
     page1.bgImage = [UIImage imageNamed:@"bg1"];
     page1.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title1"]];
 
     EAIntroPage *page2 = [EAIntroPage page];
     page2.title = [[NSAttributedString alloc] initWithString:@"Hello world2"];
-    page2.desc = sampleDescription2;
+    page2.desc = [[NSAttributedString alloc] initWithString:@"Hello world"];
     page2.bgImage = [UIImage imageNamed:@"bg2"];
     page2.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title2"]];
 
     EAIntroPage *page3 = [EAIntroPage page];
     page3.title = [[NSAttributedString alloc] initWithString:@"Hello world3"];
-    page3.desc = sampleDescription3;
+    page3.desc = [[NSAttributedString alloc] initWithString:@"Hello world"];
     page3.bgImage = [UIImage imageNamed:@"bg3"];
     page3.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title3"]];
 
     EAIntroPage *page4 = [EAIntroPage page];
     page4.title = [[NSAttributedString alloc] initWithString:@"Hello world4"];
-    page4.desc = sampleDescription4;
+    page4.desc = [[NSAttributedString alloc] initWithString:@"Hello world"];
     page4.bgImage = [UIImage imageNamed:@"bg4"];
     page4.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title4"]];
 
